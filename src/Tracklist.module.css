@@ -1,0 +1,33 @@
+.tracklist {
+  max-height: 70vh; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.trackItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.trackItemInfo {
+  flex-grow: 1;
+}
+
+.trackItem h4 {
+  margin: 0;
+}
+
+.removeBtn {
+  background-color: #1db954;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  background-color: #147d41;
+}

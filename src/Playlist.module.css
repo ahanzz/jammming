@@ -1,0 +1,45 @@
+.playlist {
+   margin-bottom: 20px;
+  }
+  
+  .playlist input {
+    font-size: 24px;
+    margin-bottom: 7px;
+  }
+  
+  .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .saveButton {
+    background-color: #1db954;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .saveButton:hover {
+    background-color: #147d41;
+  }
+
+  .removeBtn {
+  background-color: #d9534f;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  .removeBtn:hover {
+  background-color: #ac2925;
+  }
