@@ -5,6 +5,11 @@
   .playlist input {
     font-size: 24px;
     margin-bottom: 7px;
+    text-align: center;
+  }
+  
+  .playlist input::placeholder {
+    text-align: center;
   }
   
   .name {

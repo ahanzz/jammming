@@ -9,7 +9,8 @@
   }
   
   .searchBar input {
-    flex-grow: 1;
+    flex: 1;
+    min-width: 0;
     padding: 10px;
     margin-right: 10px;
     border: 1px solid #ccc;
